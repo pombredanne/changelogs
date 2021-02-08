@@ -2,8 +2,15 @@
 History
 =======
 
-UNRELEASED
-------------------
+0.15.0 (2020-12-27)
+-------------------
+* Removed support for Python 2.7, 3.4 and 3.5
+* Added support for Python 3.9
+* Getting proper changelogs for beautifulsoup4 PyPi package again
+* Getting proper changelogs for synapse PyPi package again
+* Stopped using bumpversion
+* Updated PyPi map.txt to reflect different packages changelogs location changes
+* Fixed bug while processing domain-only URLs (#155)
 
 0.14.0 (2018-01-9)
 -------------------
@@ -24,46 +31,46 @@ UNRELEASED
 0.13.0 (2018-01-9)
 -------------------
 * Added a bunch of custom parser:
- - robozilla
- - websocket-client
- - pep8-naming
- - py-trello
- - synapse
- - django-haystack
- - libsass
- - lazy-object-proxy
+  - robozilla
+  - websocket-client
+  - pep8-naming
+  - py-trello
+  - synapse
+  - django-haystack
+  - libsass
+  - lazy-object-proxy
 
 0.12.0 (2017-05-18)
 -------------------
 * Added a bunch of custom parser:
- - flake8
- - pyyaml
- - six
- - factory-boy
- - jinja2
- - docutils
- - sphinx-rtd-theme
- - whitenoise
- - numpy
- - beautifulsoup4
- - mccabe
- - django-braces
- - alabaster
- - cffi
- - django-coverage-plugin
- - newrelic
- - pandas
- - twine
- - pep8-naming
- - django-storages-redux
- - pbr
+  - flake8
+  - pyyaml
+  - six
+  - factory-boy
+  - jinja2
+  - docutils
+  - sphinx-rtd-theme
+  - whitenoise
+  - numpy
+  - beautifulsoup4
+  - mccabe
+  - django-braces
+  - alabaster
+  - cffi
+  - django-coverage-plugin
+  - newrelic
+  - pandas
+  - twine
+  - pep8-naming
+  - django-storages-redux
+  - pbr
 
 
 0.11.0 (2017-05-10)
 -------------------
 
 * The changelog finder now checks repo URLs if they contain the given project name. This should
- make it easier to identify false changelogs.
+  make it easier to identify false changelogs.
 * Fixed a couple of internal errors on edge cases.
 * Added custom parsers for:
   - graphene
